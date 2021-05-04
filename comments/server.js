@@ -4,11 +4,11 @@ const cors = require('cors');
 const{Pool}= require('pg')
 const path = require('path')
 const pool = new Pool({
-    user:'Kolby',
+    user:'jeffrydelapena',
     password:'',
     host: 'localhost',
     port: 5432,
-    database: 'youtube'
+    database: 'notYoutube'
 }) ;
 const app = express();
 const PORT = process.env.Port || 3208;

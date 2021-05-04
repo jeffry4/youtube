@@ -1,4 +1,4 @@
-CREATE DATABASE notYoutube
+CREATE DATABASE Youtube
 
 -- psql into database
 
